@@ -15,7 +15,7 @@ pipeline {
     }
     stage('Checkout from Git') {
       steps {
-        git branch: 'main', url: 'https://github.com/sekarfeb/Deploy-Netflix-Clone-on-Kubernetes.git'
+        git branch: 'main', url: 'https://github.com/sekarfeb/netflix-project-ci-cd-e2e.git'
       }
     }
     stage("Sonarqube Analysis ") {
